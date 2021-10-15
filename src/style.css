@@ -19,7 +19,24 @@
   color: #61dafb;
 }
 
+.calculation-screen {
+  width: 100%;
+  min-height: 60px;
+  font-size: 20px;
+  text-align: right;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
 .buttons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+.buttons button {
+  min-height: 40px;
+  background-color: white;
+  border: 1px solid #e2e2e2;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
